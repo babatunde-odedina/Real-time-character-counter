@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: salmon;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30%;
+  background-color: lightpink;
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.3);
+}
+textarea {
+  width: 70%;
+  height: 40%;
+  resize: none;
+  border-radius: 6px;
+  border: solid 2px grey;
+  outline: none;
+  font-size: 16px;
+  font-family: serif;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+}
+.firsttag {
+  margin-right: 100px;
+}
+.firsttag span {
+  color: blue;
+}
+.secondtag span {
+  color: red;
+}
